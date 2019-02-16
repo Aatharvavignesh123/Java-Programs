@@ -1,0 +1,23 @@
+
+public class Java_programming_version_1 {
+
+    
+    
+    public static void main(String[] args) {
+   
+       // Syntax For Array Definition :=> <DataType> [] <Array_Name> = new <DataType>[]{Values1,...};      
+       // Syntax For Array Declaration :=> <DataType> [] <Array_Name> = new <DataType>[Size];
+       
+       int [] arr=new int[]{9,98,42,56,78,23};
+       
+       for(int i=0;i<arr.length;i++){
+           
+           System.out.println(arr[i]);
+       }
+          
+          
+          
+        
+    }
+    
+}

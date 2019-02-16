@@ -1,0 +1,25 @@
+
+import java.util.Arrays;
+
+public class Java_programming_version_1 {
+ 
+    public static void main(String[] args) {
+   
+                 int [] arr={1011,200,300,50,5000};
+                 System.out.println("Array Elements Before Sort");
+                 for(int element:arr){
+                  System.out.println(element);
+                }
+                 
+               Arrays.sort(arr);  
+              
+                 System.out.println("Array Elements After Sort");
+                 
+                 for(int element:arr){
+                  System.out.println(element);
+                }
+        
+        
+    }
+    
+}

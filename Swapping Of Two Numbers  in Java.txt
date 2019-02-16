@@ -1,0 +1,30 @@
+public class Java_programming_version_1 {
+
+  
+public class Java_programming_version_1 {
+
+    int swap(int a ,int b){
+       int temp;
+       temp = a;
+       a=b;
+       b=temp;
+        
+       System.out.println("After Swap a and b are : " +a +"  "+b);
+        return 0;
+     }
+    
+    
+    public static void main(String[] args) {
+   
+        Java_programming_version_1 obj=new Java_programming_version_1();
+        
+        int a, b;
+        a=10;
+        b=5;
+        System.out.println("Before Swap a and b are : " +a +"  "+b);
+       obj.swap(a, b);// After this Execution is Over the Value Of a and b Remains 10 and 5 itself
+         System.out.println("All Execution Completed Then a and b are : " +a +"  "+b); 
+        
+    }
+    
+}

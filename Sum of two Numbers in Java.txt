@@ -1,0 +1,19 @@
+
+public class Java_programming_version_1 {
+
+    
+    
+    public static void main(String[] args) {
+   
+         int a,b;
+         a=10;
+         b=5;
+         int c;
+         c=a+b;
+         
+         System.out.println("The Sum Of Two Numbers is "+c);
+          
+        
+    }
+    
+}
